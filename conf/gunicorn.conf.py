@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 
-bind = "unix:/tmp/mygpo.sock"
+bind = "unix:/run/mygpo.sock"
 workers = multiprocessing.cpu_count()
 
 # The maximum number of requests a worker will process before restarting.
